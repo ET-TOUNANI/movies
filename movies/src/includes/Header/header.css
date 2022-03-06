@@ -22,3 +22,7 @@
 #search::placeholder{
     color: white;
 }
+.search:focus {
+    background-color: #22254b;
+    outline: none;
+}
