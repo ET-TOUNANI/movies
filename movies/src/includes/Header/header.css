@@ -17,6 +17,7 @@
     border-color: #22254b;
     color: whitesmoke;
     font-size: 14px;
+    outline: none;
 }
 #search::placeholder{
     color: white;

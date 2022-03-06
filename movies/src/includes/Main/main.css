@@ -1,0 +1,13 @@
+.Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.c{
+    margin : 40px;
+    
+    padding: 50px;
+    border: 1px solid red;
+}

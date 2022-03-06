@@ -4,8 +4,8 @@ function Header() {
   return (
     <div className="App-header" >
       <input type="text" name="search" id="search" placeholder='Search ...'/>
-     
     </div>
+    
   )
 }
 
