@@ -30,15 +30,15 @@ function Main() {
         movies.map(movie=>{
           const { poster_path, title, vote_average, overview } = movie;
           return (
-          <div key={movie.id} class="movie">
+          <div key={movie.id} className="movie">
                   <img src={IMGPATH + poster_path} alt={title} />
-                  <div class="movie-info">
+                  <div className="movie-info">
                       <h3>{title}</h3>
-                      <span class={getClassByRate(
+                      <span className={getClassByRate(
                       vote_average
                       )}>{vote_average}</span>
                   </div>
-                  <div class="overview">
+                  <div className="overview">
                       <h3>Overview:</h3>
                       {overview}
                   </div>
