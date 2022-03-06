@@ -6,7 +6,7 @@
 
 ## Overview
 
-![PopCritic Desktop]()
+![PopCritic Desktop](https://github.com/ET-TOUNANI/movies/blob/main/movie.png)
 
 ## How To Use?
 
@@ -18,6 +18,6 @@
 
 ```sh
 npm install
-npm run start
+npm  start
 ```
 
